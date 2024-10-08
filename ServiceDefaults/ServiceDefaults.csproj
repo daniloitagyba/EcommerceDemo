@@ -6,4 +6,23 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.0-rc.1.24452.1" />
+      <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0-rc.1.24452.1" />
+      <PackageReference Include="Microsoft.Extensions.Http.Resilience" Version="9.0.0-preview.8.24460.1" />
+      <PackageReference Include="Microsoft.Extensions.ServiceDiscovery" Version="8.2.1" />
+      <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.10.0-beta.1" />
+      <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.10.0-beta.1" />
+      <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.9.0" />
+      <PackageReference Include="OpenTelemetry.Instrumentation.GrpcNetClient" Version="1.9.0-beta.1" />
+      <PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.9.0" />
+      <PackageReference Include="OpenTelemetry.Instrumentation.Runtime" Version="1.9.0" />
+      <PackageReference Include="Scalar.AspNetCore" Version="1.2.9" />
+    </ItemGroup>
+    
 </Project>
