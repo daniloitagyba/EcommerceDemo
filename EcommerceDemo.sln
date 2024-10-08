@@ -7,9 +7,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{33AFEB5A-DF18-4F94-86EB-5625355C8DD3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{976001A6-D1FE-4490-AA59-B990905A563D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{F85AC39B-48E7-4799-B4DF-BB22E5F6DF87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{976001A6-D1FE-4490-AA59-B990905A563D} = {33AFEB5A-DF18-4F94-86EB-5625355C8DD3}
+		{F85AC39B-48E7-4799-B4DF-BB22E5F6DF87} = {976001A6-D1FE-4490-AA59-B990905A563D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 	EndGlobalSection
 EndGlobal
