@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus", "EventBus\EventB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationEventLogEF", "IntegrationEventLogEF\IntegrationEventLogEF.csproj", "{0FA1C34E-3097-4710-A920-FF0502FEC29B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseProxy", "ReverseProxy\ReverseProxy.csproj", "{EA242475-8944-4D9C-9509-FE5796F616F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,7 @@ Global
 		{7F86EE11-BAC8-4170-97A7-FF4A6FF7EE94} = {73550467-E39F-468D-A2E7-D6D37F07722E}
 		{74425823-A48F-4FEF-941D-0D1F8E4C090B} = {73550467-E39F-468D-A2E7-D6D37F07722E}
 		{0FA1C34E-3097-4710-A920-FF0502FEC29B} = {73550467-E39F-468D-A2E7-D6D37F07722E}
+		{EA242475-8944-4D9C-9509-FE5796F616F0} = {73550467-E39F-468D-A2E7-D6D37F07722E}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4928BB9D-4B05-4184-9512-ED5D0A7C69BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -52,5 +55,9 @@ Global
 		{0FA1C34E-3097-4710-A920-FF0502FEC29B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FA1C34E-3097-4710-A920-FF0502FEC29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FA1C34E-3097-4710-A920-FF0502FEC29B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA242475-8944-4D9C-9509-FE5796F616F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA242475-8944-4D9C-9509-FE5796F616F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA242475-8944-4D9C-9509-FE5796F616F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA242475-8944-4D9C-9509-FE5796F616F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
