@@ -37,6 +37,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.Api", "Basket.Api\Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhook.Api", "Webhook.Api\Webhook.Api.csproj", "{EA927DF6-8DFE-4990-8B30-63BF2B4AC923}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhook.Client", "Webhook.Client\Webhook.Client.csproj", "{8D3F6E93-13BD-4594-84BF-6A33DFCC0BF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{EA927DF6-8DFE-4990-8B30-63BF2B4AC923}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA927DF6-8DFE-4990-8B30-63BF2B4AC923}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA927DF6-8DFE-4990-8B30-63BF2B4AC923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D3F6E93-13BD-4594-84BF-6A33DFCC0BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3F6E93-13BD-4594-84BF-6A33DFCC0BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3F6E93-13BD-4594-84BF-6A33DFCC0BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3F6E93-13BD-4594-84BF-6A33DFCC0BF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +95,7 @@ Global
 		{D2B471EB-32A1-4B5D-8BF3-62F4D35C6E77} = {73550467-E39F-468D-A2E7-D6D37F07722E}
 		{C0B16EA7-8047-457B-8664-6363A01C632D} = {CAD6A737-B380-430A-ADF6-828279D2C025}
 		{EA927DF6-8DFE-4990-8B30-63BF2B4AC923} = {D2B471EB-32A1-4B5D-8BF3-62F4D35C6E77}
+		{8D3F6E93-13BD-4594-84BF-6A33DFCC0BF0} = {D2B471EB-32A1-4B5D-8BF3-62F4D35C6E77}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45D93712-5AFF-417F-B57C-6A7D9AC88FD8}
