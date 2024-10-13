@@ -1,8 +1,6 @@
-﻿using System.Text.Json;
-using System.Text.Json.Serialization;
-using Basket.Api.Model;
-using Microsoft.AspNetCore.Http.Json;
+﻿using Basket.Api.Model;
 using StackExchange.Redis;
+using System.Text.Json;
 
 namespace Basket.Api.Repositories;
 
@@ -38,8 +36,11 @@ public class RedisBasketRepository(ILogger<RedisBasketRepository> logger, IConne
 
     public async Task<CustomerBasket?> UpdateBasketAsync(CustomerBasket basket)
     {
-        var json = JsonSerializer.SerializeToUtf8Bytes(basket, new JsonSerializerOptions {
-            PropertyNameCaseInsensitive = true });
+        var json = JsonSerializer.SerializeToUtf8Bytes(basket, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true 
+        });
+
         var created = await _database.StringSetAsync(GetBasketKey(basket.BuyerId), json);
 
         if (!created)
