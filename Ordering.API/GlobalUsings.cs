@@ -1,0 +1,11 @@
+﻿global using Asp.Versioning.Conventions;
+global using EventBus.Abstractions;
+global using EventBus.Extensions;
+global using MediatR;
+global using Microsoft.EntityFrameworkCore;
+global using Ordering.API.Application.Commands;
+global using Ordering.API.Application.IntegrationEvents;
+global using Ordering.API.Application.IntegrationEvents.Events;
+global using Ordering.API.Extensions;
+global using Ordering.Infrastructure;
+global using System.Runtime.Serialization;
