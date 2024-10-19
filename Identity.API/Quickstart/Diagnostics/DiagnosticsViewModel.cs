@@ -5,7 +5,7 @@
 using System.Text;
 using System.Text.Json;
 
-namespace IdentityServerHost.Quickstart.UI;
+namespace Identity.API.Quickstart.Diagnostics;
 
 public class DiagnosticsViewModel
 {

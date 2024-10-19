@@ -1,6 +1,4 @@
-﻿using Identity.API.Services;
-
-namespace Identity.API.Services
+﻿namespace Identity.API.Services
 {
     public class RedirectService : IRedirectService
     {

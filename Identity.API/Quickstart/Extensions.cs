@@ -1,4 +1,4 @@
-namespace IdentityServerHost.Quickstart.UI;
+namespace Identity.API.Quickstart;
 
 public static class Extensions
 {
