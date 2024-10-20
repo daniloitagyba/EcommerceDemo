@@ -1,0 +1,13 @@
+﻿global using Duende.IdentityServer;
+global using Duende.IdentityServer.Events;
+global using Duende.IdentityServer.Services;
+global using Duende.IdentityServer.Stores;
+global using Identity.API.Models;
+global using IdentityModel;
+global using Microsoft.AspNetCore.Authentication;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.AspNetCore.Mvc;
+global using System.Security.Claims;
+global using System.ComponentModel.DataAnnotations;
+global using Microsoft.AspNetCore.Mvc.Rendering;

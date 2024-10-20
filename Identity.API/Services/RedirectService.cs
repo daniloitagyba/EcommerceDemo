@@ -1,4 +1,6 @@
-﻿namespace Identity.API.Services
+﻿using System.Text.RegularExpressions;
+
+namespace Identity.API.Services
 {
     public class RedirectService : IRedirectService
     {

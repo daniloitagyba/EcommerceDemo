@@ -1,4 +1,7 @@
-﻿namespace Identity.API.Services
+﻿using Duende.IdentityServer.Models;
+using System.IdentityModel.Tokens.Jwt;
+
+namespace Identity.API.Services
 {
     public class ProfileService : IProfileService
     {

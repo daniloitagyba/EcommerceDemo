@@ -1,3 +1,6 @@
+using Duende.IdentityServer.Models;
+using Identity.API.Models.AccountViewModels;
+
 namespace Identity.API.Quickstart;
 
 public static class Extensions
