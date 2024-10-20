@@ -1,7 +1,6 @@
 using Identity.API;
 using Identity.API.Configuration;
 using Identity.API.Data;
-using Identity.API.Extensions;
 using Identity.API.Services;
 using ServiceDefaults.Extensions;
 

@@ -1,5 +1,4 @@
 ﻿using Identity.API.Data;
-using Identity.API.Extensions;
 
 namespace Identity.API;
 
