@@ -1,6 +1,5 @@
 ﻿using Catalog.API.Model;
 using Catalog.API.Services;
-using Microsoft.Extensions.Options;
 using Npgsql;
 using Pgvector;
 using System.Text.Json;
@@ -11,7 +10,7 @@ public partial class CatalogContextSeed(
     IWebHostEnvironment env,
     IOptions<CatalogOptions> settings,
     ICatalogAI catalogAI,
-    ILogger<CatalogContextSeed> logger) : Microsoft.AspNetCore.Hosting.IDbSeeder<CatalogContext>
+    ILogger<CatalogContextSeed> logger) : IDbSeeder<CatalogContext>
 {
     public async Task SeedAsync(CatalogContext context)
     {

@@ -38,7 +38,7 @@ public class CatalogItem
 
     /// <summary>Optional embedding for the catalog item's description.</summary>
     [JsonIgnore]
-    public Vector Embedding { get; set; }
+    public Vector? Embedding { get; set; }
 
     /// <summary>
     /// True if item is on reorder
